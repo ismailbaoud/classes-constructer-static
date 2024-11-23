@@ -1,0 +1,3 @@
+let Name ;let price;const tax = 0.05;class product{constructor(name, price){this.name = name;this.price = price;};display_product(){document.querySelector('#name_result').textContent = `product : ${this.name}`;document.querySelector('#price_result').textContent += `price : $${this.price}`;};withtax(){    const total = this.price + this.price * tax;    document.querySelector('#total_result').textContent += `total with tax : $${total}`;    }};document.querySelector('button').addEventListener('click',()=>{Name = document.getElementById('name').value;price = document.getElementById('price').value;price = Number(price);const product1 = new product(Name, price);product1.display_product();product1.withtax();});
+
+ 

@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin: 10px;
+    background: rgb(72, 120, 112);
+    color: white;
+    padding: 10px;
+    width: 12rem;
+}
+div{
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+span{
+    background: #393;
+    width: 100%;
+    border: white solid 2px;
+    color: white;
+    padding: 10px;
+}
+.hidden{
+    display: none;
+}
